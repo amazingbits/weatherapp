@@ -72,3 +72,41 @@ button {
 button:hover {
     filter: brightness(112%);
 }
+
+.result-wrapper {
+    margin: 20px 0;
+}
+
+.result-wrapper h1 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #fff;
+}
+
+.result-wrapper p,
+.result-wrapper strong {
+    color: #fff;
+    font-size: 16px;
+}
+
+.result-wrapper p {
+    font-weight: 300;
+}
+
+.result {
+    text-align: center;
+}
+
+.result-wrapper div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center !important;
+    margin-bottom: 8px;
+}
+
+.result-wrapper img {
+    margin: 0 auto;
+}
