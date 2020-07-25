@@ -15,7 +15,7 @@ form.addEventListener("submit", (event) => {
 async function getData(url) {
     let response = await fetch(url);
     let data = await response.json();
-    console.log(data);
+    
     if(data.cod !== 200) {
         result.innerHTML = `
             <div class="result-wrapper">
@@ -52,6 +52,4 @@ async function getData(url) {
         </div>
     `;
     result.innerHTML = resultData;
-    console.log(currentCity);
-    console.log(currentCity[0].weather[0].icon);
 }
