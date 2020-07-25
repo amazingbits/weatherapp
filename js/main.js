@@ -15,7 +15,7 @@ form.addEventListener("submit", (event) => {
 async function getData(url) {
     let response = await fetch(url);
     let data = await response.json();
-    
+
     if(data.cod !== 200) {
         result.innerHTML = `
             <div class="result-wrapper">
